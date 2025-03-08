@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedidaIMC</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+<main id="container">
+
+    <section id="img">
+        <img src="./Assets/img/istockphoto-1500471369-612x612.jpg" alt="">
+    </section>
+
+    <section id="calculator">
+<form id="form">
+    <h1 id="title">Calculadora - IMC </h1>
+
+        <div class="input-box">
+            <label for="weigth">
+                Peso em Kg
+            </label>
+        </div>
+
+            <div class="input-field">
+
+                <i class="fa-solid fa-weight-hanging"></i>
+                <input type="tel" id="weight" required>
+                <span>
+                    Kg
+                </span>
+            </div>
+
+            
+        <div class="input-box">
+            <label for="height">
+                  Altura em metro
+            </label>
+        </div>
+
+            <div class="input-field">
+
+                <i class="fa-solid fa-ruler"></i>
+            
+                <input type="tel" id="height" required>
+                <span>
+                    M
+                </span>
+            </div>
+
+            <button class="calculate">
+                Calcular
+            </button>
+</form>
+
+    <div id="infos" class="hidden">
+        <div id="result">
+            <div id="bmi">
+                <span id="value"></span>
+                <span>Seu IMC</span>
+            </div>
+                <div id="description">
+                    <span>55</span>
+                </div>
+        </div>
+
+        <div id="more-info">
+            <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm#:~:text=IMC%20em%20adultos&text=%C3%8Dndices%20abaixo%20de%2018.5%20n%C3%A3o,das%20vezes%2C%20de%20ordem%20est%C3%A9tica.">
+                Mais Informação Sobre 
+                <i class="fa-solid fa-arrow-up-rigth-from-square"></i>
+            </a>
+                    
+                
+        </div>
+
+        
+   
+    </div>          
+
+    </section>
+
+
+
+</main>
+<script src="./Assets/js/script.js"></script>
+
+</body>
+
+</html>
